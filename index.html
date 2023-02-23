@@ -2,41 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Массив карточек</title>
-    <style>
-      .card {
-        border: 1px solid black;
-        padding: 10px;
-        margin: 10px;
-        width: 200px;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: deepskyblue;
-        color: purple;
-        font-size: 25px;
-        font-weight: 700;
-      }
-      #card-container {
-        display: flex;
-        justify-content: space-around;
-      }
-    </style>
+    <link rel="stylesheet" href="./index.css" />
+    <title>html + css + JS</title>
   </head>
   <body>
     <div id="card-container"></div>
-
-    <script>
-      const items = ["Banana", "Cola", "Cat"];
-      const container = document.getElementById("card-container");
-
-      for (let i = 0; i < items.length; i++) {
-        const card = document.createElement("div");
-        card.className = "card";
-        card.innerText = items[i];
-        container.appendChild(card);
-      }
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>
