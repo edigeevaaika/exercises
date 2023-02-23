@@ -23,4 +23,14 @@ document.body.appendChild(list);
 list.style.color = "green";
 // 3. У нас есть массив ["hi", "hello", "bonjour"] вывести элементы массива в виде кнопок.
 
+let greetings = ["hi", "hello", "bonjour"];
+let = document.createElement("div");
+
+for (let i = 0; i < greetings.length; i++) {
+  let button = document.createElement("button");
+  button.innerText = greetings[i];
+  container.appendChild(button);
+}
+
+document.body.appendChild(container);
 
