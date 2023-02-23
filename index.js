@@ -61,3 +61,6 @@ table.style.fontSize = "50px";
 table.style.paddingTop = "70px";
 table.style.paddingLeft = "70px";
 table.style.color = "blue";
+
+
+// 5.BoomBam! - 2 У нас есть массив [["Table", "2", "3", "4", "5"], ["2", "4", "6", "8", "10"], ["3", "6", "9", "12", "15"], ["4", "8", "12", "16", "20"], ["5", "10", "15", "20", "25"]] вывести этот массив в виде таблицы.
