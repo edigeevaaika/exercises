@@ -89,4 +89,4 @@ document.body.appendChild(table2);
 table2.style.fontSize = "50px";
 table2.style.paddingTop = "70px";
 table2.style.paddingLeft = "70px";
-table2.style.color = "blue";
+table2.style.color = "orange";
