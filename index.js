@@ -21,3 +21,6 @@ for (let i = 0; i < bodyParts.length; i++) {
 }
 document.body.appendChild(list);
 list.style.color = "green";
+// 3. У нас есть массив ["hi", "hello", "bonjour"] вывести элементы массива в виде кнопок.
+
+
