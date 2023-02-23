@@ -62,5 +62,31 @@ table.style.paddingTop = "70px";
 table.style.paddingLeft = "70px";
 table.style.color = "blue";
 
-
 // 5.BoomBam! - 2 У нас есть массив [["Table", "2", "3", "4", "5"], ["2", "4", "6", "8", "10"], ["3", "6", "9", "12", "15"], ["4", "8", "12", "16", "20"], ["5", "10", "15", "20", "25"]] вывести этот массив в виде таблицы.
+
+const data2 = [
+  ["Table", "2", "3", "4", "5"],
+  ["2", "4", "6", "8", "10"],
+  ["3", "6", "9", "12", "15"],
+  ["4", "8", "12", "16", "20"],
+  ["5", "10", "15", "20", "25"],
+];
+const table2 = document.createElement("table");
+
+for (let e = 0; e < data2.length; e++) {
+  const row2 = document.createElement("tr");
+
+  for (let r = 0; r < data2[e].length; r++) {
+    const cell2 = document.createElement(e === 0 ? "th" : "td");
+    cell2.innerText = data2[e][r];
+    row2.appendChild(cell2);
+  }
+
+  table2.appendChild(row2);
+}
+
+document.body.appendChild(table2);
+table2.style.fontSize = "50px";
+table2.style.paddingTop = "70px";
+table2.style.paddingLeft = "70px";
+table2.style.color = "blue";
