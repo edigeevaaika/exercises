@@ -11,7 +11,13 @@ for (let i = 0; i < items.length; i++) {
 }
 
 //2. У нас есть массив ["hand", "leg", "head", "finger", "eye"] вывести элементы массива в виде списка.
-let list = ["hand", "leg", "head", "finger", "eye"];
-let example = document.createElement("ul");
-document.body.append(example);
-example.append(list);
+const bodyParts = ["hand", "leg", "head", "finger", "eye"];
+const list = document.createElement("ul");
+
+for (let i = 0; i < items.length; i++) {
+  const item = document.createElement("li");
+  item.innerText = items[i];
+  list.appendChild(item);
+}
+
+document.body.appendChild(list);
